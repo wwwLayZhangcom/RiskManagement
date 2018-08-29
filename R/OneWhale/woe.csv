@@ -1,0 +1,6 @@
+"","var","bin","count","bads","goods","propn","bad_rate","iv","ent"
+"1","Finance_app_ratio","Finance_app_ratio <= 0.0292",48911,15500,33411,57.84,31.69,0.0054,0.901
+"2","Finance_app_ratio","Finance_app_ratio > 0.0292 & Finance_app_ratio <= 0.0442",14466,5110,9356,17.11,35.32,7e-04,0.9369
+"3","Finance_app_ratio","Finance_app_ratio > 0.0442 & Finance_app_ratio <= 0.0685",13147,4858,8289,15.55,36.95,0.0029,0.9503
+"4","Finance_app_ratio","Finance_app_ratio > 0.0685",8039,3149,4890,9.51,39.17,0.0052,0.9659
+"5","Finance_app_ratio","Total",84563,28617,55946,1,33.84,0.0142,0.921

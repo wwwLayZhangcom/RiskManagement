@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1535337270470.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "981387422",
+    "id" : "B324D630",
+    "lastKnownWriteTime" : 1535350504,
+    "last_content_update" : 1535350504645,
+    "path" : "D:/MFJK/DOC/personal/onewhale/OneWhale/R/OneWhale/Utils/missing_value.R",
+    "project_path" : "Utils/missing_value.R",
+    "properties" : {
+        "cursorPosition" : "80,36",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
