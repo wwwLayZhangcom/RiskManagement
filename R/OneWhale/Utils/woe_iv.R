@@ -1,4 +1,5 @@
 library(logiBin)
+library(readr)
 
 # 查看特征的IV值
 iv_table <- function(df,
@@ -25,12 +26,11 @@ iv_table <- function(df,
       result[length(vars), 1] <- i
       result[length(vars), 2] <- iv_[1, 1]
       
-      # woe
+      # 判断是否保存woe明细
       if (length(save_woe) > 0) {
         woe <- as.data.frame(bins$bin)
-        write.csv(woe, file = save_woe, append = T)
+        write_csv(woe,save_woe,append = TRUE)
       }
-      
     } else {
       print(paste(i, "发生错误!", sep = " "))
       err <- append(i, err, after = length(err) + 1)
